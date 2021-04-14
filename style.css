@@ -16,12 +16,23 @@
   src: url("Shrikhand/Shrikhand-Regular.ttf");
 }
 
-h1 {
-  font-family: "Shrikhand";
+/* boddy */
+body {
+  margin: 0px;
 }
 
-p {
-  font-family: "robotothin";
-  font-size: 1em;
+/* header */
+header {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 6px #d9d9d9;
 }
-/* Mobile */
+
+img {
+  margin-left: -20px;
+  width: 50%;
+  height: 40px;
+  font-family: "Shrikhand";
+}
