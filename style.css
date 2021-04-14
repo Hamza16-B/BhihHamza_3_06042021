@@ -40,6 +40,7 @@ img {
   height: 40px;
   font-family: "Shrikhand";
 }
+/* 
 
 /* Presentation */
 #container {
@@ -62,6 +63,7 @@ input {
   background-color: #d9d9d9;
   border: none;
 }
+/*quel balise utiliser bouton formulaire ?*/
 
 .pres {
   border: 1px solid black;
@@ -93,4 +95,46 @@ input {
   border-radius: 40px;
   box-shadow: 0px;
 }
-/* trouver un moyen de faire grandire mon texte*/
+/* trouver un moyen de faire grandire mes textes*/
+/* quel police utiliser */
+
+/* Section Operation*/
+/* quel balise utiliser pour les chiffre et carte ou boutton*/
+/* comment mettre en couleur les icon*/
+#opération {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 350px;
+}
+
+.opération__heading {
+  margin-left: 20px;
+}
+
+.Filters {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 70px;
+  box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Filters:hover {
+  background-color: #ff79da;
+}
+
+.Filters__numbers {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-left: -15px;
+  margin-right: 20px;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  background-color: #9356dc;
+}
