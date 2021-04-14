@@ -21,7 +21,11 @@ body {
   margin: 0px;
 }
 
-/* header */
+#file {
+  font-family: ""; /* voir quel police dans l'aceuille */
+}
+
+/* Header */
 header {
   height: 70px;
   display: flex;
@@ -36,3 +40,57 @@ img {
   height: 40px;
   font-family: "Shrikhand";
 }
+
+/* Presentation */
+#container {
+  border: 1px solid black;
+}
+
+#search {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.fa-map-marker-alt {
+  margin-right: 10px;
+}
+
+input {
+  background-color: #d9d9d9;
+  border: none;
+}
+
+.pres {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  height: 350px;
+  background-color: #f2f2f2;
+}
+
+.pres__heading {
+  border: 1px solid black;
+}
+
+.pres__explication {
+  border: 1px solid black;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  width: 70%;
+}
+
+.pres__btn {
+  background-color: #ff79da;
+  color: white;
+  width: 70%;
+  height: 70px;
+  border-radius: 40px;
+  box-shadow: 0px;
+}
+/* trouver un moyen de faire grandire mon texte*/

@@ -5,6 +5,10 @@
     <link rel="stylesheet" href="style.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/710925a4e7.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Ohmyfood!</title>
   </head>
   <body>
@@ -13,7 +17,30 @@
         <img src="images/logo/ohmyfood.png" alt="logo_Omyfood" />
       </header>
       <main>
-        <div></div>
+        <!-- Présentation -->
+        <div id="container">
+          <div id="search">
+            <form method="post" action="traitement.php">
+              <i class="fas fa-map-marker-alt"></i>
+              <input
+                type="search"
+                name="localisation"
+                value="Paris,Belleville"
+              />
+            </form>
+          </div>
+          <div class="pres">
+            <h1 class="pres__heading">
+              Réserver le menu qui<br />vous convient
+            </h1>
+            <p class="pres__explication">
+              Découvrer des restaurants d'exception,<br />
+              séléctionnés par nos soins.
+            </p>
+            <button class="pres__btn">Explorer nos restaurants</button>
+          </div>
+        </div>
+        <!-- Menu -->
         <nav></nav>
         <section></section>
         <footer></footer>
