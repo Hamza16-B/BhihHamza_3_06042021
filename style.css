@@ -167,3 +167,13 @@ article img {
   height: 120px;
   object-fit: cover;
 }
+
+/* contact */
+
+footer {
+  background-color: gray;
+}
+
+h3 {
+  font-family: "Shrikhand";
+}
