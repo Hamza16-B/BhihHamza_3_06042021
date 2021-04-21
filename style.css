@@ -66,14 +66,14 @@ input {
 }
 
 /* Section Operation*/
-#opération {
+#operation {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 500px;
 }
 
-.opération__heading {
+.operation__heading {
   margin-left: 20px;
   margin-top: 40px;
 }
@@ -211,6 +211,7 @@ article button:active {
 /* Contact */
 h3 {
   font-family: "Shrikhand";
+  margin-top: 0px;
   margin-left: 20px;
   padding-top: 20px;
   font-size: 1.4em;
