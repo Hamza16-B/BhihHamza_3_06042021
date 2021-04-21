@@ -1,0 +1,49 @@
+/* the points in common */
+/* Police */
+@font-face {
+  font-family: "robotoregular";
+  src: url("Roboto/Roboto-Regular-webfont.eot");
+  src: url("Roboto/Roboto-Regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("Roboto/Roboto-Regular-webfont.woff2") format("woff2"),
+    url("Roboto/Roboto-Regular-webfont.woff") format("woff"),
+    url("Roboto/Roboto-Regular-webfont.ttf") format("truetype"),
+    url("Roboto/Roboto-Regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Shrikhand";
+  src: url("Shrikhand/Shrikhand-Regular.ttf");
+}
+/* boddy */
+body {
+  margin: 0px;
+}
+
+#file {
+  font-family: "robotoregular";
+}
+
+/* Header */
+header {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+header img {
+  width: 35%;
+  max-width: 400px;
+  min-width: 200px;
+}
+
+/* Menu */
+
+.fa-heart {
+  color: #606060;
+  font-size: 2.5em;
+}
