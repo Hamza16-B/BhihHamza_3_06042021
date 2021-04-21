@@ -26,175 +26,269 @@ body {
   font-family: "robotoregular";
 }
 
-/*
-h1,
-h2,
-h3 {
-  font-family: "Shrikhand";
-}
-*/
-
 /* Header */
 header {
   height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 3px 6px #d9d9d9;
 }
 
 header img {
-  margin-left: -20px;
   width: 35%;
   max-width: 400px;
   min-width: 200px;
 }
 
 /* Presentation */
-#container {
-  border: 1px solid black;
-}
 
 #search {
-  background-color: #d9d9d9;
+  box-shadow: 0px 7px 10px #d9d9d9 inset;
+  background-color: #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30px;
+  height: 60px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
 }
 
 .fa-map-marker-alt {
-  margin-right: 10px;
+  font-size: 1.3em;
+  color: #353535;
 }
 
 input {
-  background-color: #d9d9d9;
+  background-color: #eaeaea;
   border: none;
+  font-size: 1.2em;
+  color: #353535;
+  text-align: center;
+  width: 70%;
 }
 
 .pres {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  align-content: center;
   height: 350px;
-  background-color: #f2f2f2;
+  background-color: #f6f6f6;
 }
 
 .pres__heading {
-  border: 1px solid black;
+  width: 280px;
+  font-size: 1.7em;
+  font-weight: bold;
 }
 
 .pres__explication {
   border: 1px solid black;
   margin-bottom: 30px;
   margin-top: 0px;
-  width: 70%;
+  width: 290px;
+  color: #7d7d7d;
+  font-size: 1em;
 }
 
 .pres__btn {
-  background-color: #ff79da;
+  background-color: #e270db; /*degrader à faire*/
   color: white;
-  width: 70%;
-  height: 70px;
+  width: 230px;
+  height: 55px;
   border-radius: 40px;
-  box-shadow: 0px;
+  border: none;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
-/* trouver un moyen de faire grandire mes textes*/
-/* quel police utiliser */
 
 /* Section Operation*/
-/* quel balise utiliser pour les chiffre et carte ou boutton*/
-/* comment mettre en couleur les icon*/
 #opération {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 350px;
+  height: 500px;
 }
 
 .opération__heading {
   margin-left: 20px;
+  margin-top: 40px;
 }
 
 .Filters {
-  background-color: #f2f2f2;
+  background-color: #f6f6f6;
   border-radius: 20px;
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  height: 70px;
-  box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.3);
+  height: 80px;
+}
+
+.Filters:last-child {
+  margin-bottom: 80px;
 }
 
 .Filters:hover {
   background-color: #f5edff;
 }
 
+.Filters__numbers {
+  border-radius: 30px;
+  margin-left: -15px;
+  padding: 5px 12px 5px 12px;
+  color: white;
+  background-color: #9356dc;
+  margin-right: 15px;
+}
+
+div[class="Filters"] i {
+  color: #8d8d8d;
+  margin-right: 15px;
+  font-size: 1.3em;
+}
+
 .Filters:hover i {
   color: #9356dc;
 }
 
-.Filters__numbers {
-  border: 1px solid black;
-  border-radius: 20px;
-  margin-left: -15px;
-  margin-right: 20px;
-  padding: 5px 10px 5px 10px;
-  color: white;
-  background-color: #9356dc;
+div[class="Filters"] p {
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
+/* in common */
+h1 {
+  font-size: 1.4em;
+}
+
+.Filters,
+article,
+.pres__btn {
+  box-shadow: -1px 2px 15px rgba(0, 0, 0, 0.3);
+}
 /* Menu */
-section[id="menu"] {
-  border: 1px solid black;
+#menu {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 1300px;
+  height: 1450px;
+  background-color: #f6f6f6;
+  margin-bottom: 0px;
 }
 
 section[id="menu"] h1 {
   margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: -2px;
 }
 
 article {
   margin-left: 20px;
   margin-right: 20px;
-  box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
+  position: relative;
+  border-radius: 20px/20px;
 }
 
 a {
   text-decoration: none;
   color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 article img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   width: 100%;
-  height: 120px;
+  height: 210px;
   object-fit: cover;
+}
+
+.title__§ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  margin-left: 20px;
+}
+
+h2 {
+  margin-bottom: 0px;
+  font-size: 1.4em;
+}
+
+h2 + p {
+  margin-top: 0px;
+  font-size: 1.3em;
+  color: #606060;
+}
+
+article button {
+  border: none;
+  background-color: #f6f6f6;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+
+.fa-heart {
+  font-size: 2.5em;
+  color: #606060;
+}
+
+article button:hover {
+  cursor: pointer;
+}
+
+.menu--new {
+  width: 70px;
+  background-color: #99e2d0;
+  color: #39a98e; /*degrader a faire comme dans le cour*/
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: center;
 }
 
 /* contact */
 
 footer {
+  margin-top: 0px;
   background-color: #353535;
   color: white;
+  height: 250px;
 }
 
 h3 {
   font-family: "Shrikhand";
   margin-left: 20px;
+  padding-top: 20px;
+  font-size: 1.4em;
+}
+
+.fa-utensils {
+  margin-right: 15px;
+  font-size: 1em;
+}
+
+.fa-hands-helping {
+  margin-right: 10px;
+  font-size: 0.8em;
+}
+
+.footer--bold {
+  font-weight: bold;
 }
 
 footer p {
   margin-left: 20px;
+  font-size: 1em;
 }
 
 /* tablette */
