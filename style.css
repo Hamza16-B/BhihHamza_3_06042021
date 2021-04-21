@@ -208,44 +208,12 @@ article button:active {
   right: 10px;
   text-align: center;
 }
-
-/* contact */
-
-footer {
-  margin-top: 0px;
-  background-color: #353535;
-  color: white;
-  height: 250px;
-}
-
+/* Contact */
 h3 {
   font-family: "Shrikhand";
   margin-left: 20px;
   padding-top: 20px;
   font-size: 1.4em;
-}
-
-.fa-utensils {
-  margin-right: 15px;
-  font-size: 1em;
-}
-
-.fa-hands-helping {
-  margin-right: 10px;
-  font-size: 0.8em;
-}
-
-.footer--bold {
-  font-weight: bold;
-}
-
-footer p {
-  margin-left: 20px;
-  font-size: 1em;
-}
-
-footer p a:last-child {
-  color: white;
 }
 
 /* tablette */

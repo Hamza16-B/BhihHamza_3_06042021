@@ -14,7 +14,7 @@ button a {
 /* picture */
 div[id="picture"] {
   border: 1px solid black;
-  width: 100%;
+  width: 99%;
   height: 260px;
   position: relative;
   z-index: 1;
@@ -50,10 +50,18 @@ section h1 {
   font-size: 2em;
 }
 
+.title--size {
+  font-size: 1.6em;
+}
+
 button {
   border: none;
   background-color: #f6f6f6;
   margin-right: 10px;
+}
+
+.heart--size {
+  font-size: 0.8em;
 }
 
 button:active {
@@ -68,6 +76,10 @@ article {
   justify-content: space-between;
   height: 400px;
   margin-bottom: 20px;
+}
+
+.article--size {
+  height: 500px;
 }
 
 h2 {
@@ -105,14 +117,22 @@ h3 {
   font-size: 1.2em;
 }
 
-div[class="menu__title§"] p {
+.menu__title§__T--size {
+  font-size: 1.1em;
+}
+
+.menu__title§__§ {
   margin-top: 5px;
   font-size: 1.1em;
 }
 
+.menu__§--size {
+  font-size: 0.9em;
+}
+
 .menu__price {
   align-self: flex-end;
-  margin-right: 20px;
+  margin-right: 15px;
   margin-bottom: 20px;
 }
 
@@ -122,7 +142,7 @@ em {
   font-style: normal;
 }
 
-#btn {
+.btn {
   width: 100%;
   height: 200px;
   display: flex;
@@ -130,7 +150,9 @@ em {
   align-items: center;
 }
 
-div[id="btn"] button {
+/* voir le btn*/
+
+div[class="btn"] button {
   color: white;
   background-color: #e270db;
   width: 230px;
@@ -138,4 +160,13 @@ div[id="btn"] button {
   font-size: 1.3em;
   border-radius: 40px;
   box-shadow: -1px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* contact */
+
+h4 {
+  font-family: "Shrikhand";
+  margin-left: 20px;
+  padding-top: 20px;
+  font-size: 1.4em;
 }
