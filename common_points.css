@@ -28,6 +28,7 @@ body {
 
 /* Header */
 header {
+  width: 100%; /*en px*/
   height: 70px;
   display: flex;
   justify-content: center;
@@ -36,9 +37,11 @@ header {
 }
 
 header img {
+  /*en px
   width: 35%;
   max-width: 400px;
-  min-width: 200px;
+  min-width: 200px;*/
+  width: 50%;
 }
 
 /* Menu */

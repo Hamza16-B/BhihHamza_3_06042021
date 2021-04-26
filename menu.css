@@ -120,6 +120,7 @@ h3 {
 .menu__title§__§ {
   margin-top: 5px;
   font-size: 1.1em;
+  color: #7d7d7d;
 }
 
 .menu__§--size {
@@ -139,24 +140,27 @@ em {
 }
 
 .btn {
+  /*width: 100%;
+  max-width: 300px;*/
+  /*utiliser les px*/
   width: 100%;
-  max-width: 400px;
   height: 200px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin: auto;
 }
 
 div[class="btn"] button {
   color: white;
   background-color: #e270db;
-  width: 100%;
+  /*width: 100%;*/
+  margin-top: 20px;
+  width: 70%;
   height: 55px;
   font-size: 1.3em;
   border-radius: 40px;
   box-shadow: -1px 2px 15px rgba(0, 0, 0, 0.3);
-  margin-bottom: 15px;
 }
 
 /* contact */
@@ -167,4 +171,5 @@ h4 {
   margin-top: 0px;
   padding-top: 20px;
   font-size: 1.4em;
+  width: 100%;
 }

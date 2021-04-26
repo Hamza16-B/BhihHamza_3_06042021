@@ -65,17 +65,25 @@ input {
   margin-bottom: 40px;
 }
 
-/* Section Operation*/
-#operation {
+/* Section Operation */
+#choice {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 500px;
 }
 
-.operation__heading {
+.choice__heading {
   margin-left: 20px;
   margin-top: 40px;
+}
+
+#operation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
 }
 
 .Filters {
@@ -102,13 +110,13 @@ input {
   padding: 5px 12px 5px 12px;
   color: white;
   background-color: #9356dc;
-  margin-right: 15px;
 }
 
 div[class="Filters"] i {
   color: #8d8d8d;
-  margin-right: 15px;
   font-size: 1.3em;
+  width: 20%;
+  text-align: center;
 }
 
 .Filters:hover i {
@@ -118,6 +126,7 @@ div[class="Filters"] i {
 div[class="Filters"] p {
   font-size: 1.1em;
   font-weight: bold;
+  width: 100%;
 }
 
 /* in common */
@@ -130,25 +139,33 @@ article,
 .pres__btn {
   box-shadow: -1px 2px 15px rgba(0, 0, 0, 0.3);
 }
-/* Menu */
-#menu {
+/* Restaurant */
+#restaurant {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 1450px;
+  height: 1400px;
   background-color: #f6f6f6;
-  margin-bottom: 0px;
+  padding-bottom: 60px;
 }
 
-section[id="menu"] h1 {
+section[id="restaurant"] h1 {
   margin-left: 20px;
   margin-top: 40px;
-  margin-bottom: -2px;
+}
+
+#menu {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 article {
-  margin-left: 20px;
-  margin-right: 20px;
+  height: 300px;
+  width: 100%;
   position: relative;
   border-radius: 20px/20px;
 }
@@ -219,10 +236,120 @@ h3 {
 
 /* tablette */
 
-@media all and (min-width: 768px) and (max-width: 1000.99px) {
+@media all and (min-width: 768px) and (max-width: 991.98px) {
+  /*header*/
+  /*Section Operation */
+  #choice {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  #operation {
+    border: 1px solid black;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Filters {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 30%;
+  }
+
+  .Filters:last-child {
+    margin-bottom: 0px;
+  }
+
+  /* sans doute reduire le numéro*/
+
+  div[class="Filters"] i {
+    font-size: 1em;
+  }
+
+  div[class="Filters"] p {
+    font-size: 0.9em;
+  }
+
+  /* Menu */
+  #restaurant {
+    height: auto;
+  }
+
+  #menu {
+    border: 1px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    align-content: space-between;
+  }
+
+  article {
+    width: 47%;
+    margin-bottom: 40px;
+  }
 }
 
 /* Desktop */
 
-@media all and (min-width: 1001px) and (max-width: 1440px) {
+@media all and (min-width: 992px) and (max-width: 1440px) {
+  /* Together */
+  #together {
+    display: flex;
+    border: 1px solid violet;
+    justify-content: space-between;
+  }
+
+  #choice {
+    flex: 1.5;
+    border: 1px solid black;
+    margin-right: 20px;
+    height: auto;
+  }
+
+  #restaurant {
+    flex: 3;
+    border: 1px solid black;
+    background-color: white;
+    height: auto;
+  }
+
+  /* Section Operation */
+
+  #operation {
+    border: 1px solid black;
+  }
+
+  .Filters:last-child {
+    margin-bottom: 0px;
+  }
+
+  /* in common */
+  h1 {
+    font-size: 2em;
+  }
+
+  /* Restaurant */
+
+  #menu {
+    border: 1px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  article {
+    width: 47%;
+    margin-bottom: 40px;
+  }
+
+  article button {
+    background-color: white;
+  }
+
+  .menu--new {
+    padding: 10px;
+    font-size: 1.1em;
+  }
 }
