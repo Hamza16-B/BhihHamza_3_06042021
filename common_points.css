@@ -5,7 +5,6 @@
   src: url("Roboto/Roboto-Regular-webfont.eot");
   src: url("Roboto/Roboto-Regular-webfont.eot?#iefix")
       format("embedded-opentype"),
-    url("Roboto/Roboto-Regular-webfont.woff2") format("woff2"),
     url("Roboto/Roboto-Regular-webfont.woff") format("woff"),
     url("Roboto/Roboto-Regular-webfont.ttf") format("truetype"),
     url("Roboto/Roboto-Regular-webfont.svg#robotoregular") format("svg");
@@ -69,16 +68,16 @@ footer {
   font-size: 0.8em;
 }
 
-.footer--bold {
+.contact--bold {
   font-weight: bold;
 }
 
-footer p {
+div[id="contact"] p {
   margin-left: 20px;
   font-size: 1em;
 }
 
-footer p a:last-child {
+div[id="contact"] p a:last-child {
   color: white;
   text-decoration: none;
 }
