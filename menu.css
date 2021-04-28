@@ -234,24 +234,6 @@ h4 {
   h4 {
     font-size: 2em;
   }
-
-  #contact {
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
-  }
-
-  .fa-utensils {
-    font-size: 2em;
-  }
-
-  .fa-hands-helping {
-    font-size: 1em;
-  }
-
-  div[id="contact"] p {
-    font-size: 2em;
-  }
 }
 
 @media all and (min-width: 992px) and (max-width: 1440px) {
@@ -309,24 +291,6 @@ h4 {
 
   /* Contact */
   h4 {
-    font-size: 2em;
-  }
-
-  #contact {
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
-  }
-
-  .fa-utensils {
-    font-size: 2em;
-  }
-
-  .fa-hands-helping {
-    font-size: 1em;
-  }
-
-  div[id="contact"] p {
     font-size: 2em;
   }
 

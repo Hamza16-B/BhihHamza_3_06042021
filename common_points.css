@@ -77,7 +77,51 @@ div[id="contact"] p {
   font-size: 1em;
 }
 
-div[id="contact"] p a:last-child {
+div[class="contact"] p a:last-child {
   color: white;
   text-decoration: none;
+}
+/* Tablette */
+@media all and (min-width: 768px) and (max-width: 991.98px) {
+  /* Contact */
+  .contact {
+    border: 1px solid violet;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+  }
+
+  .fa-utensils {
+    font-size: 2em;
+  }
+
+  .fa-hands-helping {
+    font-size: 1em;
+  }
+
+  div[id="contact"] p {
+    font-size: 2em;
+  }
+}
+
+/* Desktop */
+@media all and (min-width: 992px) and (max-width: 1440px) {
+  /* Footer */
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+  }
+
+  .fa-utensils {
+    font-size: 1em;
+  }
+
+  .fa-hands-helping {
+    font-size: 1em;
+  }
+
+  div[id="contact"] p {
+    font-size: 2em;
+  }
 }

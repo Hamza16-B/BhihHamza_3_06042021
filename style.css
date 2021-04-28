@@ -289,6 +289,11 @@ h3 {
     width: 47%;
     margin-bottom: 40px;
   }
+
+  /* Contact */
+  h3 {
+    font-size: 2em;
+  }
 }
 
 /* Desktop */
@@ -351,5 +356,10 @@ h3 {
   .menu--new {
     padding: 10px;
     font-size: 1.1em;
+  }
+
+  /* Contact */
+  h3 {
+    font-size: 2em;
   }
 }
