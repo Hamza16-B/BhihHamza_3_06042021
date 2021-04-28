@@ -68,11 +68,15 @@ footer {
   font-size: 0.8em;
 }
 
+.contact {
+  margin-left: 10px;
+}
+
 .contact--bold {
   font-weight: bold;
 }
 
-div[id="contact"] p {
+div[class="contact"] p {
   margin-left: 20px;
   font-size: 1em;
 }
@@ -85,22 +89,22 @@ div[class="contact"] p a:last-child {
 @media all and (min-width: 768px) and (max-width: 991.98px) {
   /* Contact */
   .contact {
-    border: 1px solid violet;
     display: flex;
     justify-content: space-between;
     width: 95%;
+    align-items: center;
   }
 
   .fa-utensils {
-    font-size: 2em;
+    font-size: 1em;
   }
 
   .fa-hands-helping {
     font-size: 1em;
   }
 
-  div[id="contact"] p {
-    font-size: 2em;
+  div[class="contact"] p {
+    font-size: 1em;
   }
 }
 
@@ -121,7 +125,7 @@ div[class="contact"] p a:last-child {
     font-size: 1em;
   }
 
-  div[id="contact"] p {
-    font-size: 2em;
+  div[class="contact"] p {
+    font-size: 1.5em;
   }
 }

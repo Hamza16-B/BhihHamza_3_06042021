@@ -187,7 +187,6 @@ h4 {
   margin-top: 0px;
   padding-top: 20px;
   font-size: 1.4em;
-  width: 100%;
 }
 
 @media all and (min-width: 768px) and (max-width: 991.98px) {
@@ -199,40 +198,15 @@ h4 {
   }
 
   /* Menu */
-
-  article {
-    height: auto;
-  }
-
-  .together__menu {
-    flex-direction: row;
-    height: auto;
-    justify-content: space-between;
-  }
-
   .menu {
-    width: 32%;
-  }
-
-  h3 {
-    font-size: 0.8em;
-  }
-
-  .menu__title§__§ {
-    font-size: 0.6em;
-  }
-
-  .menu__price {
-    margin-right: 10px;
-  }
-
-  em {
-    font-size: 1em;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
   }
 
   /* Contact */
   h4 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -245,53 +219,16 @@ h4 {
   }
 
   /* Menu */
-  section h1 {
-    font-size: 2em;
-  }
-
-  .title--size {
-    font-size: 2em;
-  }
-
-  article {
-    height: auto;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .title__tertiary {
-    width: 15%;
-  }
-
-  .together__menu {
-    flex-direction: row;
-    height: auto;
-    justify-content: space-between;
-  }
 
   .menu {
-    width: 32%;
-  }
-
-  h3 {
-    font-size: 0.9em;
-  }
-
-  .menu__title§__§ {
-    font-size: 0.7em;
-  }
-
-  .menu__price {
-    margin-right: 10px;
-  }
-
-  em {
-    font-size: 1em;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
   }
 
   /* Contact */
   h4 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   /*paragraphe et p ne chnage pas de taille*/

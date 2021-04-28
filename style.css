@@ -242,6 +242,7 @@ h3 {
   #choice {
     height: auto;
     padding-bottom: 40px;
+    width: 95%;
   }
 
   #operation {
@@ -292,7 +293,7 @@ h3 {
 
   /* Contact */
   h3 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -311,6 +312,7 @@ h3 {
     border: 1px solid black;
     margin-right: 20px;
     height: auto;
+    justify-content: flex-start;
   }
 
   #restaurant {
@@ -324,6 +326,7 @@ h3 {
 
   #operation {
     border: 1px solid black;
+    height: 700px;
   }
 
   .Filters:last-child {
@@ -360,6 +363,6 @@ h3 {
 
   /* Contact */
   h3 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
