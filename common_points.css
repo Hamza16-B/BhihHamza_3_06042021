@@ -36,11 +36,9 @@ header {
 }
 
 header img {
-  /*en px
-  width: 35%;
+  width: 30%;
   max-width: 400px;
-  min-width: 200px;*/
-  width: 50%;
+  min-width: 200px;
 }
 
 /* Menu */
@@ -55,7 +53,7 @@ footer {
   margin-top: 0px;
   background-color: #353535;
   color: white;
-  height: 240px;
+  padding-bottom: 20px;
 }
 
 .fa-utensils {
@@ -69,7 +67,7 @@ footer {
 }
 
 .contact {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .contact--bold {
@@ -77,8 +75,7 @@ footer {
 }
 
 div[class="contact"] p {
-  margin-left: 20px;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 div[class="contact"] p a:last-child {
@@ -88,6 +85,9 @@ div[class="contact"] p a:last-child {
 /* Tablette */
 @media all and (min-width: 768px) and (max-width: 991.98px) {
   /* Contact */
+  footer {
+    height: auto;
+  }
   .contact {
     display: flex;
     justify-content: space-between;
@@ -104,13 +104,17 @@ div[class="contact"] p a:last-child {
   }
 
   div[class="contact"] p {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 
 /* Desktop */
 @media all and (min-width: 992px) and (max-width: 1440px) {
   /* Footer */
+  footer {
+    height: auto;
+  }
+
   .contact {
     display: flex;
     justify-content: space-between;
@@ -126,6 +130,6 @@ div[class="contact"] p a:last-child {
   }
 
   div[class="contact"] p {
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
 }

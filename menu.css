@@ -33,7 +33,7 @@ section {
   z-index: 2;
 }
 
-#title__heart {
+.title__heart {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -44,23 +44,16 @@ section h1 {
   font-family: "Shrikhand";
   margin-left: 10px;
   font-size: 1.6em;
+  font-weight: bold;
 }
 
-.title--size {
-  font-size: 1.6em;
-}
-
-button {
+div[class="title__heart"] button {
   border: none;
   background-color: #f6f6f6;
   margin-right: 10px;
 }
 
-.heart--size {
-  font-size: 0.8em;
-}
-
-button:active {
+div[class="title__heart"] button:active {
   cursor: pointer;
 }
 
@@ -135,7 +128,7 @@ h3 {
 
 .menu__title§__§ {
   margin-top: 5px;
-  font-size: 0.7em;
+  font-size: 0.8em;
   color: #7d7d7d;
 }
 
@@ -145,12 +138,12 @@ h3 {
 
 .menu__price {
   align-self: flex-end;
-  margin-right: 15px;
+  margin-right: 10px;
   margin-bottom: 20px;
 }
 
 em {
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bold;
   font-style: normal;
 }
@@ -177,6 +170,7 @@ div[class="btn"] button {
   font-size: 1.3em;
   border-radius: 40px;
   box-shadow: -1px 2px 15px rgba(0, 0, 0, 0.3);
+  border: none;
 }
 
 /* contact */
@@ -189,6 +183,46 @@ h4 {
   font-size: 1.4em;
 }
 
+@media all and (min-width: 481px) and (max-width: 767.98px) {
+  /* Menu */
+  section h1 {
+    font-size: 2em;
+  }
+
+  .lin--tertiary {
+    width: 60px;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+
+  .menu__title§__§ {
+    font-size: 1.3em;
+  }
+
+  .menu__price {
+    margin-bottom: 10px;
+  }
+
+  em {
+    font-size: 1.2em;
+  }
+
+  div[class="btn"] button {
+    font-size: 2.5em;
+  }
+
+  /* Contact */
+  h4 {
+    font-size: 1.5em;
+  }
+}
+
 @media all and (min-width: 768px) and (max-width: 991.98px) {
   /* Header */
   header img {
@@ -198,11 +232,11 @@ h4 {
   }
 
   /* Menu */
-  .menu {
+  /*.menu {
     max-width: 800px;
     width: 100%;
     margin: auto;
-  }
+  }*/
 
   /* Contact */
   h4 {
@@ -219,10 +253,20 @@ h4 {
   }
 
   /* Menu */
+  .title__tertiary {
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  .lin--tertiary {
+    width: 250px;
+  }
 
   .menu {
-    max-width: 800px;
-    width: 100%;
+    width: 90%;
     margin: auto;
   }
 
@@ -230,6 +274,4 @@ h4 {
   h4 {
     font-size: 1.5em;
   }
-
-  /*paragraphe et p ne chnage pas de taille*/
 }
