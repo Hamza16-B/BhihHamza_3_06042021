@@ -52,8 +52,7 @@ input {
 }
 
 .pres__btn {
-  background-color: #e270db; /*degrader à faire*/
-  color: white;
+  background: linear-gradient(#ff79da, #9f5adc); /*degrader à faire*/
   width: 230px;
   height: 55px;
   border-radius: 40px;
@@ -61,6 +60,11 @@ input {
   font-size: 1em;
   margin-top: 20px;
   margin-bottom: 40px;
+  transition: all 0.1s;
+}
+
+.pres__btn:hover {
+  background: linear-gradient(#e289da, #ad7add);
 }
 
 /* Section Operation */
