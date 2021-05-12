@@ -53,6 +53,7 @@ input {
 
 .pres__btn {
   background: linear-gradient(#ff79da, #9f5adc); /*degrader à faire*/
+  color: white;
   width: 230px;
   height: 55px;
   border-radius: 40px;
@@ -65,6 +66,7 @@ input {
 
 .pres__btn:hover {
   background: linear-gradient(#e289da, #ad7add);
+  box-shadow: -1px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Section Operation */
@@ -212,10 +214,42 @@ article button {
   position: absolute;
   bottom: 30px;
   right: 20px;
+  cursor: pointer;
 }
 
-article button:active {
-  cursor: pointer;
+.fa-heart {
+  animation: progress-heart 10s;
+}
+
+i .fa-heart {
+  font-size: 0.6em;
+}
+
+@keyframes progress-heart {
+  form {
+    background-color: #ff79da;
+    transform: translateY(0%);
+  }
+
+  25% {
+    background-color: #d06adb;
+    transform: translateY(25%);
+  }
+
+  50% {
+    background-color: #bc64db;
+    transform: translateY(-50%);
+  }
+
+  75% {
+    background-color: #a65ddc;
+    transform: translateY(-75px);
+  }
+
+  to {
+    background-color: #9e52de;
+    transform: translateY(-100%);
+  }
 }
 
 .menu--new {

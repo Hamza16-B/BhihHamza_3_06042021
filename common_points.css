@@ -23,6 +23,7 @@ body {
 
 #file {
   font-family: "robotoregular";
+  animation: normal 10s;
 }
 
 /* Header */
