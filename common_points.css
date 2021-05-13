@@ -19,11 +19,13 @@
 /* boddy */
 body {
   margin: 0px;
+  padding: 0px;
 }
 
 #file {
   font-family: "robotoregular";
-  animation: normal 10s;
+  position: relative;
+  z-index: 1;
 }
 
 /* Header */
