@@ -66,6 +66,24 @@ article {
   height: 400px;
   margin-bottom: 20px;
 }
+.entry {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #f4f9f8;
+  transform-origin: top left;
+  animation: 350ms ease 250ms 1 normal both running menu;
+  z-index: -1;
+}
+
+@keyframes menu {
+  0% {
+    transform: scaleY(0);
+  }
+}
 
 .article--size {
   height: 500px;
